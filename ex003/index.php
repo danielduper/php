@@ -7,6 +7,11 @@
 </head>
 <body>
     <?php 
+
+    $nome = "Daniel";
+    $idade = 18;
+
+    
     
     ?>
 </body>

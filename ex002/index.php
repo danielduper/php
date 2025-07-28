@@ -8,6 +8,8 @@
 <body>
     <h1>PHP A FRENTE:</h1>
 
+    <?php ?>
+
     <?php 
         date_default_timezone_set("America/Sao_Paulo");
         echo "SUA MORTE SERÁ " . date("d/m/y") . "\n";
