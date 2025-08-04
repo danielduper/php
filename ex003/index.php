@@ -8,11 +8,14 @@
 <body>
     <?php 
 
-    $nome = "Daniel";
-    $idade = 18;
+class daniel {
+    private string $ego;
+}
 
-    
-    
+$d = new daniel;
+var_dump($d);
+
     ?>
+    
 </body>
 </html>
