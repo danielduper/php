@@ -12,16 +12,20 @@
     </header>
     <main>
 
-    <h3>
         <?php
-        
-        $name = $_GET["name"];
-        $lastname = $_GET["surname"];
 
-        echo "your name is $name. your last name is $lastname.";
+        $name = $_GET["name"] ?? null;
+        $lastname = $_GET["surname"] ?? null;
+        $date = $_GET["loc"];
+
+        if ($name == null or $lastname == null) {
+            echo "<p>INCOMPLETE</p>";
+        } else {
+        echo "<h3>your name is $name. your last name is $lastname.</h3>";
+        echo "<h3>$date<h3>";
+        }
 
         ?> 
-    </h3>
 
     </main>
 </body>
