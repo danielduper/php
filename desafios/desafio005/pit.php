@@ -11,10 +11,12 @@
 <?php 
 
 $number = $_GET["number"];
-$numbera = $number;
+$numbera = round("$number");
 $numberf = $number;
 
-echo "$number";
+echo "<p>número é $number</p>";
+echo "<p>núemro inteiro é $numbera</p>";
+echo "<p>número fracionado é $numberf</p>";
 
 ?>
     
