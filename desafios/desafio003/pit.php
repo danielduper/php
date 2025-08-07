@@ -12,10 +12,10 @@
 <?php 
 
 $valorr = $_GET["valor"];
-$valord = number_format((float)$valorr/5.51, 2, '.', '');
+$valord = number_format($valorr/5.51, 2, ',', '.');
     
-echo "<p>ce tem R$$valorr<p>";
-echo "<p>ce tem $$valord</p>";
+echo "<p>ce tem R\$$valorr<p>";
+echo "<p>ce tem \$$valord</p>";
 
 ?>
 

@@ -15,7 +15,7 @@ $numbera = round("$number");
 $numberf = $number;
 
 echo "<p>número é $number</p>";
-echo "<p>núemro inteiro é $numbera</p>";
+echo "<p>número inteiro é $numbera</p>";
 echo "<p>número fracionado é $numberf</p>";
 
 ?>
